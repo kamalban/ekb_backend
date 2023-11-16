@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: abp-backend
+  namespace: default
+spec:
+  ports:
+    - name: http
+      port: 8081
+      protocol: TCP
+      targetPort: 8081
+  selector:
+    app: abp-backend
+  sessionAffinity: ClientIP
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 10800
+  type: ClusterIP

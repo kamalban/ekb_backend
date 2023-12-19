@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "654b4f91872d5348442ffc8d"
+  },
+  "partyList": [
+    {
+      "Rajasthan": [
+        "INC",
+        "BJP",
+        "BSP",
+        "Others"
+      ],
+      "totalSeats": 200
+    },
+    {
+      "Chhattisgarh": [
+        "INC",
+        "BJP",
+        "Others"
+      ],
+      "totalSeats": 90
+    },
+    {
+      "MP": [
+        "INC",
+        "BJP",
+        "BSP",
+        "Others"
+      ],
+      "totalSeats": "230"
+    },
+    {
+      "Mizoram": [
+        "INC",
+        "MNF",
+        "ZPM",
+        "Others"
+      ],
+      "totalSeats": 40
+    },
+    {
+      "Telangana": [
+        "INC",
+        "BRS",
+        "BJP",
+        "Others"
+      ],
+      "totalSeats": 119
+    }
+  ],
+  "cutOffDate": {
+    "MP": "2023-12-30T20:45:00.000+00:00",
+    "Rajasthan": "2023-12-30T20:45:00.000+00:00",
+    "Chhattisgarh": "2023-11-30T20:45:00.000+00:00",
+    "Mizoram": "2023-11-30T20:45:00.000+00:00",
+    "Telangana": "2023-11-30T20:45:00.000+00:00",
+    "rajasthan": {
+      "$date": {
+        "$numberLong": "0"
+      }
+    }
+  },
+  "state": [
+    "Rajasthan",
+    "Chhattisgarh",
+    "MP",
+    "Mizoram",
+    "Telangana"
+  ],
+  "__v": 0
+}]
